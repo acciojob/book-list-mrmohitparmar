@@ -31,6 +31,10 @@ table.append(row)
 	deletebtn.addEventListener("click" , ()=>{
 		row.remove();
 	})
+	document.getElementById("title").value = "";
+document.getElementById("author").value = "";
+document.getElementById("isbn").value = "";
+
 	
 }
 let submit = document.getElementById("submit");
